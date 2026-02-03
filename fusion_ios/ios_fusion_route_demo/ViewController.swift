@@ -48,11 +48,11 @@ class ViewController: UIViewController {
         ])
     }
     
-    private func pushNativePage() {
-//        Fusion.instance.pushNativeRoute(name: "SecondViewController", args: ["message": "来自首页的数据"])
+    @objc private func pushNativePage() {
+        Fusion.instance.pushNativeRoute(name: "SecondViewController", args: ["message": "来自首页的数据"])
     }
     
     @objc private func pushFlutterPage() {
-//        Fusion.instance.pushFlutterRoute(name: "profile", args: ["userId": 12345, "userName": "张三"])
+        Fusion.instance.pushFlutterRoute(name: "profile", args: ["userId": 12345, "userName": "张三"])
     }
 }

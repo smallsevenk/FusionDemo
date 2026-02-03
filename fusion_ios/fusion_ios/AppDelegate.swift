@@ -37,10 +37,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate, FusionRouteDelegate  {
         }
         
     func pushFlutterRoute(name: String, args arguments: Dictionary<String, Any>?) {
-            // 根据路由 name 跳转对应 Flutter 页面
-            // 可在 arguments 中存放参数判断是否需要打开透明页面
-            // 可在 arguments 中存放参数判断是 push 还是 present
+        // 构造完整的 Flutter 路由路径
+        let flutterRoute = "/$name"
+
+        // 封装传参字典
+        var flutterArguments: [String: Any] = [:]
+        if let params = arguments {
+            flutterArguments = params
         }
 
+        // 获取导航控制器并推送 Flutter 页面
+        if let navigationController = UIApplication.shared.windows.first?.rootViewController as? UINavigationController {
+            NSLog(flutterRoute)
+//            let flutterViewController = FlutterViewController()
+//            flutterViewController.setInitialRoute(flutterRoute)
+//
+//            // 设置共享的 Flutter Engine
+//            if let engine = flutterEngine {
+//                flutterViewController.engine = engine
+//            }
+//
+//            navigationController.pushViewController(flutterViewController, animated: true)
+        }
+    }
 }
 

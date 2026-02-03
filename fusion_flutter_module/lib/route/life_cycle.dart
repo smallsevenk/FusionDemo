@@ -1,14 +1,14 @@
-// import 'package:flutter/material.dart';
-// import 'package:fusion/fusion.dart';
+import 'package:flutter/material.dart';
+import 'package:fusion/fusion.dart';
 
-// class MyAppLifecycleListener implements FusionAppLifecycleListener {
-//   @override
-//   void onBackground() {
-//     debugPrint('onBackground');
-//   }
+class MyAppLifecycleListener implements FusionAppLifecycleListener {
+  @override
+  void onBackground() {
+    debugPrint('onBackground');
+  }
 
-//   @override
-//   void onForeground() {
-//     debugPrint('onForeground');
-//   }
-// }
+  @override
+  void onForeground() {
+    debugPrint('onForeground');
+  }
+}

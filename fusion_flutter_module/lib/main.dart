@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-// import 'package:fusion/fusion.dart';
-// import 'package:fusion_flutter_module/route/life_cycle.dart';
-// import 'package:fusion_flutter_module/route/navigator_observer.dart';
-// import 'package:fusion_flutter_module/route/route.dart';
-// import 'package:fusion_flutter_module/route/transitions_builder.dart';
+import 'package:fusion/fusion.dart';
+import 'package:fusion_flutter_module/route/life_cycle.dart';
+import 'package:fusion_flutter_module/route/navigator_observer.dart';
+import 'package:fusion_flutter_module/route/route.dart';
+import 'package:fusion_flutter_module/route/transitions_builder.dart';
 
 void main() {
   if (kDebugMode) {
@@ -12,10 +12,10 @@ void main() {
     print('defaultRouteName=${dispatcher.defaultRouteName}');
   }
   // MyWidgetsFlutterBinding.ensureInitialized();
-  // Fusion.instance.install();
-  // FusionAppLifecycleManager.instance.register(MyAppLifecycleListener());
-  // pageTransitionsBuilder.addAll(const PageTransitionsTheme().builders);
-  // pageTransitionsBuilder[TargetPlatform.android] = const SlidePageTransitionsBuilder();
+  Fusion.instance.install();
+  FusionAppLifecycleManager.instance.register(MyAppLifecycleListener());
+  pageTransitionsBuilder.addAll(const PageTransitionsTheme().builders);
+  pageTransitionsBuilder[TargetPlatform.android] = const SlidePageTransitionsBuilder();
   runApp(const MyApp());
 }
 
@@ -25,15 +25,14 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    // return FusionApp(
-    //   title: 'Flutter Demo',
-    //   theme: ThemeData(primarySwatch: Colors.blue),
-    //   navigatorObservers: [MyNavigatorObserver()],
-    //   // interceptors: [MyInterceptor()],
-    //   routeMap: routeMap,
-    //   // customRouteMap: customRouteMap,
-    // );
-    return MaterialApp(home: MyHomePage(title: 'title'));
+    return FusionApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      navigatorObservers: [MyNavigatorObserver()],
+      // interceptors: [MyInterceptor()],
+      routeMap: routeMap,
+      // customRouteMap: customRouteMap,
+    );
   }
 }
 

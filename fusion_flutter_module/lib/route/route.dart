@@ -2,6 +2,7 @@
 // 使用统一的路由动画
 
 import 'package:fusion/fusion.dart';
+import 'package:fusion_flutter_module/main.dart';
 import 'package:fusion_flutter_module/pages/first.dart';
 import 'package:fusion_flutter_module/pages/second.dart';
 import 'package:fusion_flutter_module/pages/three.dart';
@@ -11,6 +12,7 @@ const String frSecond = '/second';
 const String frThree = '/three';
 
 final Map<String, FusionPageFactory> routeMap = {
+  '/': (arguments) => MyHomePage(title: 'Home Page'),
   frFirst: (arguments) => FirstPage(args: arguments),
   frSecond: (arguments) => SecondPage(args: arguments),
   frThree: (arguments) => ThreePage(args: arguments),

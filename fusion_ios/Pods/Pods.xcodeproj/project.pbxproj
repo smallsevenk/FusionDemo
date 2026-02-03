@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 71;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -15,7 +15,6 @@
 			dependencies = (
 			);
 			name = Flutter;
-			productName = Flutter;
 		};
 /* End PBXAggregateTarget section */
 
@@ -97,7 +96,7 @@
 		152097322A97D4A319578B9ED25F0A0B /* NavigatorPopGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigatorPopGestureRecognizerDelegate.swift; path = "../../../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/Classes/Navigator/NavigatorPopGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
 		228458BB1AC94389915E0EAF1E37F8A5 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIApplicationExtension.swift; path = "../../../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/Classes/Extension/UIApplicationExtension.swift"; sourceTree = "<group>"; };
 		31EA92C17BB8775E1596070099D600A9 /* WeakReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakReference.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/Classes/WeakReference.swift"; sourceTree = "<group>"; };
-		34940363ABFDD1F5EBCCEE56F1E463D0 /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		34940363ABFDD1F5EBCCEE56F1E463D0 /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3CB1ACE349670682AC40B6AEAA1E3E0F /* Fusion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fusion.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/Classes/Fusion.swift"; sourceTree = "<group>"; };
 		3DCA787A1983D93FA4BCA98904570049 /* FusionConstant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FusionConstant.swift; path = "../../../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/Classes/Constant/FusionConstant.swift"; sourceTree = "<group>"; };
 		3E92F6FB169A714F3CED5B43F0CE086B /* FlutterPluginRegistrant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.debug.xcconfig; sourceTree = "<group>"; };
@@ -107,7 +106,7 @@
 		591CA8ACF32F242C6299E4F47A4A07CB /* Pods-fusion_ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fusion_ios.modulemap"; sourceTree = "<group>"; };
 		5FA5CF1AAD1A31A6A2D9E8C58016FA38 /* Pods-fusion_ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fusion_ios-acknowledgements.plist"; sourceTree = "<group>"; };
 		6096AF9FEEEE5F606EF2EBBE6ED9BB4A /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationControllerExtension.swift; path = "../../../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/Classes/Extension/UINavigationControllerExtension.swift"; sourceTree = "<group>"; };
-		6E08FAD71191FC1BCC66114F8E95F43B /* libPods-fusion_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fusion_ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E08FAD71191FC1BCC66114F8E95F43B /* Pods-fusion_ios */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-fusion_ios"; path = "libPods-fusion_ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		778DA9F381FD2782083DB49DE68BEE86 /* FlutterPluginRegistrant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-umbrella.h"; sourceTree = "<group>"; };
 		7A3FB6D8AE3ED3241177EC45F659944C /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneratedPluginRegistrant.h; path = Classes/GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		7C2BFF5F0F8B7B4F11EE6CA356B0BB33 /* Pods-fusion_ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fusion_ios-umbrella.h"; sourceTree = "<group>"; };
@@ -116,24 +115,24 @@
 		7FBD345E4113F6EE0545FF49276CCFAC /* FusionEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FusionEvent.swift; path = "../../../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/Classes/Event/FusionEvent.swift"; sourceTree = "<group>"; };
 		81BB1AEE77ADD450D4028CBAADA115E5 /* FlutterPluginRegistrant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-prefix.pch"; sourceTree = "<group>"; };
 		8247EDFB5A4DFBA6A263B17E6E35B58E /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeneratedPluginRegistrant.m; path = Classes/GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
-		88DE79E3DF0F32352AD683C2374AC0BA /* fusion.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = fusion.podspec; path = "../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/fusion.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88DE79E3DF0F32352AD683C2374AC0BA /* fusion.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = fusion.podspec; path = "../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/fusion.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B14A6B6D87AB50B8539032C25CC3AFC /* FusionMessengerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FusionMessengerHandler.swift; path = "../../../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/Classes/Handler/FusionMessengerHandler.swift"; sourceTree = "<group>"; };
 		94624F29E0B554221F61887C013DED8C /* fusion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fusion-umbrella.h"; sourceTree = "<group>"; };
-		97223B1EFBD7C65C517A676F0867D93E /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97223B1EFBD7C65C517A676F0867D93E /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CEB2DA2F2269E8BE77E810E23389BEE /* FlutterPluginRegistrant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterPluginRegistrant-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DAB5174F5444AD70FF2A37ED93B6329 /* FusionPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FusionPlugin.swift; path = "../../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/Classes/FusionPlugin.swift"; sourceTree = "<group>"; };
 		A8B3A7ED502E146C60D26951A726F5FB /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
 		AB9B3B956438CDF91799286299EB8B16 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
-		ACB2AE26855F037ACD227034D71515BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = "../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/LICENSE"; sourceTree = "<group>"; };
+		ACB2AE26855F037ACD227034D71515BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/LICENSE"; sourceTree = "<group>"; };
 		B810532B17E8E25E690F0B818AE7F5F5 /* Pods-fusion_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fusion_ios.release.xcconfig"; sourceTree = "<group>"; };
-		C3A7E29B6B741FC99F1D2950F0E32BBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C3A7E29B6B741FC99F1D2950F0E32BBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C3E41C7ED6D10E228EC56F1129FE21FD /* FlutterPluginRegistrant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.release.xcconfig; sourceTree = "<group>"; };
 		CDBD902EBAFF072FF062FFD19D58130A /* fusion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fusion.debug.xcconfig; sourceTree = "<group>"; };
-		D89D3D664C73709CBE7558C841140B37 /* libfusion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfusion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89D3D664C73709CBE7558C841140B37 /* fusion */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = fusion; path = libfusion.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB519797BC36A3CEC1CB4F5EE8764F6 /* FusionStackManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FusionStackManager.swift; path = "../../../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/Classes/Container/FusionStackManager.swift"; sourceTree = "<group>"; };
 		DC8C6D31D5AB3A877D54344A8CBA2BD6 /* FlutterPluginRegistrant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlutterPluginRegistrant.modulemap; sourceTree = "<group>"; };
-		DF7C6EBB9161EEF650EC12B4BB67E628 /* libFlutterPluginRegistrant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFlutterPluginRegistrant.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = FlutterPluginRegistrant; path = libFlutterPluginRegistrant.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05812679414FA3AD9D823AED2DFACE1 /* fusion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = fusion.modulemap; sourceTree = "<group>"; };
 		F61AA3C9BFEB083B493CFF9891D4F5E7 /* Pods-fusion_ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fusion_ios-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FAA551D70237726D65EC0BC384AD9D20 /* FusionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FusionViewController.swift; path = "../../../../../../../../../../../../.pub-cache/hosted/pub.flutter-io.cn/fusion-4.10.2/ios/Classes/Container/FusionViewController.swift"; sourceTree = "<group>"; };
@@ -170,6 +169,7 @@
 			children = (
 				9B9D66EFD656E8CC16E97646C52A11FB /* FusionDemo */,
 			);
+			name = embed;
 			path = embed;
 			sourceTree = "<group>";
 		};
@@ -178,6 +178,7 @@
 			children = (
 				84C59CAB226EE7812249A87FA5CCF596 /* .. */,
 			);
+			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -186,6 +187,7 @@
 			children = (
 				3DCA787A1983D93FA4BCA98904570049 /* FusionConstant.swift */,
 			);
+			name = Constant;
 			path = Constant;
 			sourceTree = "<group>";
 		};
@@ -196,6 +198,7 @@
 				DAB519797BC36A3CEC1CB4F5EE8764F6 /* FusionStackManager.swift */,
 				FAA551D70237726D65EC0BC384AD9D20 /* FusionViewController.swift */,
 			);
+			name = Container;
 			path = Container;
 			sourceTree = "<group>";
 		};
@@ -204,6 +207,7 @@
 			children = (
 				52B80F52675CB042BDDC50E95D14486B /* fusion */,
 			);
+			name = plugins;
 			path = plugins;
 			sourceTree = "<group>";
 		};
@@ -224,6 +228,7 @@
 			children = (
 				07E2D10D35A979A7AD8A489475BA6585 /* .. */,
 			);
+			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -232,6 +237,7 @@
 			children = (
 				7FBD345E4113F6EE0545FF49276CCFAC /* FusionEvent.swift */,
 			);
+			name = Event;
 			path = Event;
 			sourceTree = "<group>";
 		};
@@ -274,6 +280,7 @@
 			children = (
 				DC3252A93D1D432F7A2A0820339BC367 /* ios */,
 			);
+			name = fusion;
 			path = fusion;
 			sourceTree = "<group>";
 		};
@@ -303,6 +310,7 @@
 			children = (
 				8845A2EF20B307C02CD1FBD31954A4D1 /* code */,
 			);
+			name = zwork;
 			path = zwork;
 			sourceTree = "<group>";
 		};
@@ -311,6 +319,7 @@
 			children = (
 				8E8618F278901E94B6ACB9D8C3EA93D2 /* .. */,
 			);
+			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -319,6 +328,7 @@
 			children = (
 				013BA1B5F014AC3C874688C2BE5E02A9 /* embed */,
 			);
+			name = code;
 			path = code;
 			sourceTree = "<group>";
 		};
@@ -327,6 +337,7 @@
 			children = (
 				FDBAE4545C7AA57344A70E7A73601BFB /* FusionEngineBinding.swift */,
 			);
+			name = Engine;
 			path = Engine;
 			sourceTree = "<group>";
 		};
@@ -336,6 +347,7 @@
 				04626E9F3926784422D54A6FCACB3961 /* FusionNavigator.swift */,
 				152097322A97D4A319578B9ED25F0A0B /* NavigatorPopGestureRecognizerDelegate.swift */,
 			);
+			name = Navigator;
 			path = Navigator;
 			sourceTree = "<group>";
 		};
@@ -344,6 +356,7 @@
 			children = (
 				7F868D57CA4C22BD7BD798B1754D2B56 /* zwork */,
 			);
+			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -372,9 +385,9 @@
 		99BC4B24F67EBD89D1931B29DA356C85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF7C6EBB9161EEF650EC12B4BB67E628 /* libFlutterPluginRegistrant.a */,
-				D89D3D664C73709CBE7558C841140B37 /* libfusion.a */,
-				6E08FAD71191FC1BCC66114F8E95F43B /* libPods-fusion_ios.a */,
+				DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */,
+				D89D3D664C73709CBE7558C841140B37 /* fusion */,
+				6E08FAD71191FC1BCC66114F8E95F43B /* Pods-fusion_ios */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -384,6 +397,7 @@
 			children = (
 				B2452B5D6BD747AEC97D35F0EB10D39B /* fusion_flutter_module */,
 			);
+			name = FusionDemo;
 			path = FusionDemo;
 			sourceTree = "<group>";
 		};
@@ -393,6 +407,7 @@
 				8B14A6B6D87AB50B8539032C25CC3AFC /* FusionMessengerHandler.swift */,
 				7F9569D4007A51EC06B4F0A086F8C93B /* FusionPopGestureHandler.swift */,
 			);
+			name = Handler;
 			path = Handler;
 			sourceTree = "<group>";
 		};
@@ -418,6 +433,7 @@
 			children = (
 				13B4E1359282672F9DF3B19AF49AA767 /* plugins */,
 			);
+			name = .symlinks;
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
@@ -426,6 +442,7 @@
 			children = (
 				F0562D7C2491B953E843C740A938C789 /* .ios */,
 			);
+			name = fusion_flutter_module;
 			path = fusion_flutter_module;
 			sourceTree = "<group>";
 		};
@@ -444,6 +461,7 @@
 				228458BB1AC94389915E0EAF1E37F8A5 /* UIApplicationExtension.swift */,
 				6096AF9FEEEE5F606EF2EBBE6ED9BB4A /* UINavigationControllerExtension.swift */,
 			);
+			name = Extension;
 			path = Extension;
 			sourceTree = "<group>";
 		};
@@ -470,6 +488,7 @@
 			children = (
 				F2690CE93340853D9659949CA7CE01ED /* Classes */,
 			);
+			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -478,6 +497,7 @@
 			children = (
 				276DD0BA024A573230E13B74015B3204 /* .. */,
 			);
+			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -486,6 +506,7 @@
 			children = (
 				B03E5A0F480C65E5F395680717407E04 /* .symlinks */,
 			);
+			name = .ios;
 			path = .ios;
 			sourceTree = "<group>";
 		};
@@ -503,6 +524,7 @@
 				9E872BE3D4CB7A9D7C9A00E6FA1FBB12 /* Handler */,
 				891E07C8F78E259C339D12032DB10B1B /* Navigator */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -577,7 +599,7 @@
 			);
 			name = fusion;
 			productName = fusion;
-			productReference = D89D3D664C73709CBE7558C841140B37 /* libfusion.a */;
+			productReference = D89D3D664C73709CBE7558C841140B37 /* fusion */;
 			productType = "com.apple.product-type.library.static";
 		};
 		83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */ = {
@@ -596,7 +618,7 @@
 			);
 			name = FlutterPluginRegistrant;
 			productName = FlutterPluginRegistrant;
-			productReference = DF7C6EBB9161EEF650EC12B4BB67E628 /* libFlutterPluginRegistrant.a */;
+			productReference = DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E5EF3DE97136926C69E6146D94AA395B /* Pods-fusion_ios */ = {
@@ -616,7 +638,7 @@
 			);
 			name = "Pods-fusion_ios";
 			productName = "Pods-fusion_ios";
-			productReference = 6E08FAD71191FC1BCC66114F8E95F43B /* libPods-fusion_ios.a */;
+			productReference = 6E08FAD71191FC1BCC66114F8E95F43B /* Pods-fusion_ios */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -637,6 +659,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 99BC4B24F67EBD89D1931B29DA356C85 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -791,10 +815,12 @@
 					Flutter,
 				);
 				OTHER_LIBTOOLFLAGS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) -no-verify-emitted-module-interface";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_EMIT_MODULE_INTERFACE = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
@@ -834,10 +860,12 @@
 					Flutter,
 				);
 				OTHER_LIBTOOLFLAGS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) -no-verify-emitted-module-interface";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_EMIT_MODULE_INTERFACE = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
 			};
@@ -1048,7 +1076,7 @@
 					Flutter,
 				);
 				OTHER_LIBTOOLFLAGS = "";
-				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -import-underlying-module -Xcc -fmodule-map-file=\"${SRCROOT}/${MODULEMAP_FILE}\" -no-verify-emitted-module-interface";
+				OTHER_SWIFT_FLAGS = "$(inherited) -no-verify-emitted-module-interface";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = fusion;
 				PRODUCT_NAME = fusion;
@@ -1056,6 +1084,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_EMIT_MODULE_INTERFACE = NO;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1180,7 +1209,7 @@
 					Flutter,
 				);
 				OTHER_LIBTOOLFLAGS = "";
-				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -import-underlying-module -Xcc -fmodule-map-file=\"${SRCROOT}/${MODULEMAP_FILE}\" -no-verify-emitted-module-interface";
+				OTHER_SWIFT_FLAGS = "$(inherited) -no-verify-emitted-module-interface";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = fusion;
 				PRODUCT_NAME = fusion;
@@ -1188,6 +1217,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_EMIT_MODULE_INTERFACE = NO;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

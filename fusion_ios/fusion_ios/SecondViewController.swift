@@ -20,7 +20,7 @@ class SecondViewController: UIViewController {
         title = "原生页面"
         
         let label = UILabel()
-        label.text = "接收到的参数: $message)"
+        label.text = "接收到的参数: \(message)"
         label.textAlignment = .center
         label.numberOfLines = 0
         label.font = .systemFont(ofSize: 18)

@@ -9,12 +9,22 @@ end
 
 # 添加编译配置
 post_install do |installer|
-  flutter_post_install(installer)
-#  installer.pods_project.targets.each do |target|
-#    target.build_configurations.each do |config|
-#      config.build_settings['SWIFT_VERIFY_EMITTED_MODULE_INTERFACE'] = 'NO'
-#    end
-#  end
+  flutter_post_install(installer) # 必须保留 Flutter 默认配置
+  
+  installer.pods_project.targets.each do |target|
+    # 针对 fusion 插件及其依赖进行处理
+    if target.name.include?('fusion')
+      target.build_configurations.each do |config|
+        # 使用数组添加方式，避免破坏已有配置
+        config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['$(inherited)']
+        config.build_settings['OTHER_SWIFT_FLAGS'] << '-no-verify-emitted-module-interface'
+        
+        # 针对 Xcode 15+ 的额外保护：禁用冗余的模块接口生成（解决 No such module 'Flutter'）
+        config.build_settings['SWIFT_EMIT_MODULE_INTERFACE'] = 'NO'
+      end
+    end
+  end
 end
+
 
  

@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    // 跳转
+    @IBAction func jumpTo(_ sender: UIButton) {
+        NSLog("jump")
+    }
 
 }
 

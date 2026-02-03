@@ -1,0 +1,6 @@
+module Pods_fusion_ios {
+  umbrella header "Pods-fusion_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

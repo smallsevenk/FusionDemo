@@ -2,20 +2,27 @@ PODS:
   - Flutter (1.0.0)
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
+    - fusion
+  - fusion (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `../fusion_flutter_module/.ios/Flutter`)
   - FlutterPluginRegistrant (from `../fusion_flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - fusion (from `../fusion_flutter_module/.ios/.symlinks/plugins/fusion/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: "../fusion_flutter_module/.ios/Flutter"
   FlutterPluginRegistrant:
     :path: "../fusion_flutter_module/.ios/Flutter/FlutterPluginRegistrant"
+  fusion:
+    :path: "../fusion_flutter_module/.ios/.symlinks/plugins/fusion/ios"
 
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
-  FlutterPluginRegistrant: 1bf2b93dcc6a731089dfe77f7a867be153c5008f
+  FlutterPluginRegistrant: f311390142d1912c6e968bbc024d18eca59a2c87
+  fusion: afe4f1ce29ff9310fbf52ee99d1bcb8ef7392749
 
 PODFILE CHECKSUM: b3a334d60e51ee8b6154bb9b00f3ca300606f788
 

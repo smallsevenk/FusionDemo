@@ -75,6 +75,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  fusion:
+    dependency: "direct main"
+    description:
+      name: fusion
+      sha256: f60dbd9e701d3fe1c08d56339c684313505f692d59869fa8d5df7a859f1efa87
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "4.10.2"
   leak_tracker:
     dependency: transitive
     description:

@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - fusion
+  - fusion (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - FlutterPluginRegistrant (from `Flutter/FlutterPluginRegistrant`)
+  - fusion (from `.symlinks/plugins/fusion/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  FlutterPluginRegistrant:
+    :path: Flutter/FlutterPluginRegistrant
+  fusion:
+    :path: ".symlinks/plugins/fusion/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  FlutterPluginRegistrant: f311390142d1912c6e968bbc024d18eca59a2c87
+  fusion: afe4f1ce29ff9310fbf52ee99d1bcb8ef7392749
+
+PODFILE CHECKSUM: 48a12d41c9fcb914ab21432376e41f11e00040b6
+
+COCOAPODS: 1.16.2

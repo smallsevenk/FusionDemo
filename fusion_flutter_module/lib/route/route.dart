@@ -7,9 +7,9 @@ import 'package:fusion_flutter_module/pages/first.dart';
 import 'package:fusion_flutter_module/pages/second.dart';
 import 'package:fusion_flutter_module/pages/three.dart';
 
-const String frFirst = '/first';
-const String frSecond = '/second';
-const String frThree = '/three';
+const String frFirst = '/fr_first';
+const String frSecond = '/fr_second';
+const String frThree = '/fr_three';
 
 final Map<String, FusionPageFactory> routeMap = {
   '/': (arguments) => MyHomePage(title: 'Home Page'),

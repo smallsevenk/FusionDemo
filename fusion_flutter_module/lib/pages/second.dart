@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fusion/fusion.dart';
 
 class SecondPage extends StatefulWidget {
   final Map<String, dynamic>? args;
@@ -11,6 +12,17 @@ class SecondPage extends StatefulWidget {
 class _SecondPageState extends State<SecondPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+      child: TextButton(
+        onPressed: () {
+          FusionNavigator.push(
+            '/nr_second',
+            routeArgs: {'from': 'second page'},
+            routeType: FusionRouteType.native,
+          );
+        },
+        child: Text('second page'),
+      ),
+    );
   }
 }

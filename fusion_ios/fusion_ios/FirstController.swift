@@ -1,7 +1,7 @@
 import UIKit
 import fusion
 
-class ViewController: FusionViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,14 +48,17 @@ class ViewController: FusionViewController {
                 lessThanOrEqualTo: view.trailingAnchor, constant: -40),
         ])
     }
+  
 
     @objc private func toNative() {
-
-        FusionNavigator.push("/second", routeType: .native)
-
+        FusionNavigator.push("/nr_second", routeType: .native)
     }
 
     @objc private func toFultter() {
-        FusionNavigator.push("/first", routeArgs: ["userId": 12345, "userName": "张三"])
+        FusionNavigator.push("/fr_first", routeArgs: ["userId": 12345, "userName": "张三"])
+    }
+    
+    deinit {
+        FusionEventManager.instance.unregister("custom_event")
     }
 }

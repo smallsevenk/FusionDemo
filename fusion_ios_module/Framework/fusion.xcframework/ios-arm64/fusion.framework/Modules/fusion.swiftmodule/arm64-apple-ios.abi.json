@@ -1,0 +1,3752 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "fusion",
+    "printedName": "fusion",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "fusion"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Fusion",
+        "printedName": "Fusion",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Fusion",
+                "printedName": "fusion.Fusion",
+                "usr": "c:@M@fusion@objc(cs)Fusion"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@fusion@objc(cs)Fusion(cpy)instance",
+            "mangledName": "$s6fusion6FusionC8instanceACvpZ",
+            "moduleName": "fusion",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Fusion",
+                    "printedName": "fusion.Fusion",
+                    "usr": "c:@M@fusion@objc(cs)Fusion"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@fusion@objc(cs)Fusion(cm)instance",
+                "mangledName": "$s6fusion6FusionC8instanceACvgZ",
+                "moduleName": "fusion",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "engineGroup",
+            "printedName": "engineGroup",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterEngineGroup?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterEngineGroup",
+                    "printedName": "Flutter.FlutterEngineGroup",
+                    "usr": "c:objc(cs)FlutterEngineGroup"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6fusion6FusionC11engineGroupSo013FlutterEngineD0CSgvp",
+            "mangledName": "$s6fusion6FusionC11engineGroupSo013FlutterEngineD0CSgvp",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Flutter.FlutterEngineGroup?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterEngineGroup",
+                        "printedName": "Flutter.FlutterEngineGroup",
+                        "usr": "c:objc(cs)FlutterEngineGroup"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6fusion6FusionC11engineGroupSo013FlutterEngineD0CSgvg",
+                "mangledName": "$s6fusion6FusionC11engineGroupSo013FlutterEngineD0CSgvg",
+                "moduleName": "fusion",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultEngine",
+            "printedName": "defaultEngine",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterEngine?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterEngine",
+                    "printedName": "Flutter.FlutterEngine",
+                    "usr": "c:objc(cs)FlutterEngine"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6fusion6FusionC13defaultEngineSo07FlutterD0CSgvp",
+            "mangledName": "$s6fusion6FusionC13defaultEngineSo07FlutterD0CSgvp",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Flutter.FlutterEngine?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterEngine",
+                        "printedName": "Flutter.FlutterEngine",
+                        "usr": "c:objc(cs)FlutterEngine"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6fusion6FusionC13defaultEngineSo07FlutterD0CSgvg",
+                "mangledName": "$s6fusion6FusionC13defaultEngineSo07FlutterD0CSgvg",
+                "moduleName": "fusion",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "install",
+            "printedName": "install(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FusionRouteDelegate",
+                "printedName": "any fusion.FusionRouteDelegate",
+                "usr": "c:@M@fusion@objc(pl)FusionRouteDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(cs)Fusion(im)install:",
+            "mangledName": "$s6fusion6FusionC7installyyAA0B13RouteDelegate_pF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uninstall",
+            "printedName": "uninstall()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(cs)Fusion(im)uninstall",
+            "mangledName": "$s6fusion6FusionC9uninstallyyF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@fusion@objc(cs)Fusion",
+        "mangledName": "$s6fusion6FusionC",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fusion"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FusionEventManager",
+        "printedName": "FusionEventManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionEventManager",
+                "printedName": "fusion.FusionEventManager",
+                "usr": "c:@M@fusion@objc(cs)FusionEventManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6fusion18FusionEventManagerC8instanceACvpZ",
+            "mangledName": "$s6fusion18FusionEventManagerC8instanceACvpZ",
+            "moduleName": "fusion",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FusionEventManager",
+                    "printedName": "fusion.FusionEventManager",
+                    "usr": "c:@M@fusion@objc(cs)FusionEventManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6fusion18FusionEventManagerC8instanceACvgZ",
+                "mangledName": "$s6fusion18FusionEventManagerC8instanceACvgZ",
+                "moduleName": "fusion",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Any]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6fusion18FusionEventManagerC8register_8callbackySS_ySDySSypGSgXLtF",
+            "mangledName": "$s6fusion18FusionEventManagerC8register_8callbackySS_ySDySSypGSgXLtF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregister",
+            "printedName": "unregister(_:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String : Any]?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Any]?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6fusion18FusionEventManagerC10unregister_8callbackySS_ySDySSypGSgXLSgtF",
+            "mangledName": "$s6fusion18FusionEventManagerC10unregister_8callbackySS_ySDySSypGSgXLSgtF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(_:args:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FusionEventType",
+                "printedName": "fusion.FusionEventType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@fusion@E@FusionEventType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6fusion18FusionEventManagerC4send_4args4typeySS_SDySSypGSgAA0bC4TypeOtF",
+            "mangledName": "$s6fusion18FusionEventManagerC4send_4args4typeySS_SDySSypGSgAA0bC4TypeOtF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@fusion@objc(cs)FusionEventManager",
+        "mangledName": "$s6fusion18FusionEventManagerC",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FusionEventType",
+        "printedName": "FusionEventType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "flutter",
+            "printedName": "flutter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(fusion.FusionEventType.Type) -> fusion.FusionEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FusionEventType",
+                    "printedName": "fusion.FusionEventType",
+                    "usr": "c:@M@fusion@E@FusionEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "fusion.FusionEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FusionEventType",
+                        "printedName": "fusion.FusionEventType",
+                        "usr": "c:@M@fusion@E@FusionEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@fusion@E@FusionEventType@FusionEventTypeFlutter",
+            "mangledName": "$s6fusion15FusionEventTypeO7flutteryA2CmF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "native",
+            "printedName": "native",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(fusion.FusionEventType.Type) -> fusion.FusionEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FusionEventType",
+                    "printedName": "fusion.FusionEventType",
+                    "usr": "c:@M@fusion@E@FusionEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "fusion.FusionEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FusionEventType",
+                        "printedName": "fusion.FusionEventType",
+                        "usr": "c:@M@fusion@E@FusionEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@fusion@E@FusionEventType@FusionEventTypeNative",
+            "mangledName": "$s6fusion15FusionEventTypeO6nativeyA2CmF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "global",
+            "printedName": "global",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(fusion.FusionEventType.Type) -> fusion.FusionEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FusionEventType",
+                    "printedName": "fusion.FusionEventType",
+                    "usr": "c:@M@fusion@E@FusionEventType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "fusion.FusionEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FusionEventType",
+                        "printedName": "fusion.FusionEventType",
+                        "usr": "c:@M@fusion@E@FusionEventType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@fusion@E@FusionEventType@FusionEventTypeGlobal",
+            "mangledName": "$s6fusion15FusionEventTypeO6globalyA2CmF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "fusion.FusionEventType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FusionEventType",
+                    "printedName": "fusion.FusionEventType",
+                    "usr": "c:@M@fusion@E@FusionEventType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6fusion15FusionEventTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s6fusion15FusionEventTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "fusion",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6fusion15FusionEventTypeO8rawValueSivp",
+            "mangledName": "$s6fusion15FusionEventTypeO8rawValueSivp",
+            "moduleName": "fusion",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6fusion15FusionEventTypeO8rawValueSivg",
+                "mangledName": "$s6fusion15FusionEventTypeO8rawValueSivg",
+                "moduleName": "fusion",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@fusion@E@FusionEventType",
+        "mangledName": "$s6fusion15FusionEventTypeO",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fusion"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FusionMessengerHandler",
+        "printedName": "FusionMessengerHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configureFlutterChannel",
+            "printedName": "configureFlutterChannel(binaryMessenger:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(pl)FusionMessengerHandler(im)configureFlutterChannelWithBinaryMessenger:",
+            "mangledName": "$s6fusion22FusionMessengerHandlerP23configureFlutterChannel06binaryC0ySo0f6BinaryC0_p_tF",
+            "moduleName": "fusion",
+            "genericSig": "<τ_0_0 where τ_0_0 : fusion.FusionMessengerHandler>",
+            "sugared_genericSig": "<Self where Self : fusion.FusionMessengerHandler>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "releaseFlutterChannel",
+            "printedName": "releaseFlutterChannel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(pl)FusionMessengerHandler(im)releaseFlutterChannel",
+            "mangledName": "$s6fusion22FusionMessengerHandlerP21releaseFlutterChannelyyF",
+            "moduleName": "fusion",
+            "genericSig": "<τ_0_0 where τ_0_0 : fusion.FusionMessengerHandler>",
+            "sugared_genericSig": "<Self where Self : fusion.FusionMessengerHandler>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@fusion@objc(pl)FusionMessengerHandler",
+        "mangledName": "$s6fusion22FusionMessengerHandlerP",
+        "moduleName": "fusion",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FusionNavigationController",
+        "printedName": "FusionNavigationController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@fusion@objc(cs)FusionNavigationController(py)shouldAutorotate",
+            "mangledName": "$s6fusion26FusionNavigationControllerC16shouldAutorotateSbvp",
+            "moduleName": "fusion",
+            "overriding": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@fusion@objc(cs)FusionNavigationController(im)shouldAutorotate",
+                "mangledName": "$s6fusion26FusionNavigationControllerC16shouldAutorotateSbvg",
+                "moduleName": "fusion",
+                "overriding": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@fusion@objc(cs)FusionNavigationController(py)supportedInterfaceOrientations",
+            "mangledName": "$s6fusion26FusionNavigationControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "fusion",
+            "overriding": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@fusion@objc(cs)FusionNavigationController(im)supportedInterfaceOrientations",
+                "mangledName": "$s6fusion26FusionNavigationControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "fusion",
+                "overriding": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredInterfaceOrientationForPresentation",
+            "printedName": "preferredInterfaceOrientationForPresentation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientation",
+                "printedName": "UIKit.UIInterfaceOrientation",
+                "usr": "c:@E@UIInterfaceOrientation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@fusion@objc(cs)FusionNavigationController(py)preferredInterfaceOrientationForPresentation",
+            "mangledName": "$s6fusion26FusionNavigationControllerC44preferredInterfaceOrientationForPresentationSo011UIInterfaceG0Vvp",
+            "moduleName": "fusion",
+            "overriding": true,
+            "objc_name": "preferredInterfaceOrientationForPresentation",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientation",
+                    "printedName": "UIKit.UIInterfaceOrientation",
+                    "usr": "c:@E@UIInterfaceOrientation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@fusion@objc(cs)FusionNavigationController(im)preferredInterfaceOrientationForPresentation",
+                "mangledName": "$s6fusion26FusionNavigationControllerC44preferredInterfaceOrientationForPresentationSo011UIInterfaceG0Vvg",
+                "moduleName": "fusion",
+                "overriding": true,
+                "objc_name": "preferredInterfaceOrientationForPresentation",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(_:animated:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(cs)FusionNavigationController(im)presentViewController:animated:completion:",
+            "mangledName": "$s6fusion26FusionNavigationControllerC7present_8animated10completionySo06UIViewD0C_SbyycSgtF",
+            "moduleName": "fusion",
+            "overriding": true,
+            "objc_name": "presentViewController:animated:completion:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(navigationBarClass:toolbarClass:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionNavigationController",
+                "printedName": "fusion.FusionNavigationController",
+                "usr": "c:@M@fusion@objc(cs)FusionNavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AnyObject.Type)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any AnyObject.Type)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fusion@objc(cs)FusionNavigationController(im)initWithNavigationBarClass:toolbarClass:",
+            "mangledName": "$s6fusion26FusionNavigationControllerC18navigationBarClass07toolbarG0ACyXlXpSg_AFtcfc",
+            "moduleName": "fusion",
+            "overriding": true,
+            "implicit": true,
+            "intro_iOS": "5.0",
+            "objc_name": "initWithNavigationBarClass:toolbarClass:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionNavigationController",
+                "printedName": "fusion.FusionNavigationController",
+                "usr": "c:@M@fusion@objc(cs)FusionNavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fusion@objc(cs)FusionNavigationController(im)initWithRootViewController:",
+            "mangledName": "$s6fusion26FusionNavigationControllerC08rootViewD0ACSo06UIViewD0C_tcfc",
+            "moduleName": "fusion",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithRootViewController:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionNavigationController",
+                "printedName": "fusion.FusionNavigationController",
+                "usr": "c:@M@fusion@objc(cs)FusionNavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fusion@objc(cs)FusionNavigationController(im)initWithNibName:bundle:",
+            "mangledName": "$s6fusion26FusionNavigationControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "fusion",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "fusion.FusionNavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FusionNavigationController",
+                    "printedName": "fusion.FusionNavigationController",
+                    "usr": "c:@M@fusion@objc(cs)FusionNavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fusion@objc(cs)FusionNavigationController(im)initWithCoder:",
+            "mangledName": "$s6fusion26FusionNavigationControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "fusion",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@fusion@objc(cs)FusionNavigationController",
+        "mangledName": "$s6fusion26FusionNavigationControllerC",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UINavigationController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UINavigationController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FusionNavigator",
+        "printedName": "FusionNavigator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "push",
+            "printedName": "push(_:routeArgs:routeType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FusionRouteType",
+                "printedName": "fusion.FusionRouteType",
+                "hasDefaultArg": true,
+                "usr": "c:@M@fusion@E@FusionRouteType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6fusion15FusionNavigatorC4push_9routeArgs0E4TypeySS_SDySSypGSgAA0b5RouteG0OtFZ",
+            "mangledName": "$s6fusion15FusionNavigatorC4push_9routeArgs0E4TypeySS_SDySSypGSgAA0b5RouteG0OtFZ",
+            "moduleName": "fusion",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "replace",
+            "printedName": "replace(_:routeArgs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6fusion15FusionNavigatorC7replace_9routeArgsySS_SDySSypGSgtFZ",
+            "mangledName": "$s6fusion15FusionNavigatorC7replace_9routeArgsySS_SDySSypGSgtFZ",
+            "moduleName": "fusion",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pop",
+            "printedName": "pop(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6fusion15FusionNavigatorC3popyyxSglFZ",
+            "mangledName": "$s6fusion15FusionNavigatorC3popyyxSglFZ",
+            "moduleName": "fusion",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "maybePop",
+            "printedName": "maybePop(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6fusion15FusionNavigatorC8maybePopyyxSglFZ",
+            "mangledName": "$s6fusion15FusionNavigatorC8maybePopyyxSglFZ",
+            "moduleName": "fusion",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6fusion15FusionNavigatorC6removeyySSFZ",
+            "mangledName": "$s6fusion15FusionNavigatorC6removeyySSFZ",
+            "moduleName": "fusion",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionNavigator",
+                "printedName": "fusion.FusionNavigator",
+                "usr": "c:@M@fusion@objc(cs)FusionNavigator"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fusion@objc(cs)FusionNavigator(im)init",
+            "mangledName": "$s6fusion15FusionNavigatorCACycfc",
+            "moduleName": "fusion",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@fusion@objc(cs)FusionNavigator",
+        "mangledName": "$s6fusion15FusionNavigatorC",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FusionRouteDelegate",
+        "printedName": "FusionRouteDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pushNativeRoute",
+            "printedName": "pushNativeRoute(name:args:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(pl)FusionRouteDelegate(im)pushNativeRouteWithName:args:",
+            "mangledName": "$s6fusion19FusionRouteDelegateP010pushNativeC04name4argsySS_SDySSypGSgtF",
+            "moduleName": "fusion",
+            "genericSig": "<τ_0_0 where τ_0_0 : fusion.FusionRouteDelegate>",
+            "sugared_genericSig": "<Self where Self : fusion.FusionRouteDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pushFlutterRoute",
+            "printedName": "pushFlutterRoute(name:args:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(pl)FusionRouteDelegate(im)pushFlutterRouteWithName:args:",
+            "mangledName": "$s6fusion19FusionRouteDelegateP011pushFlutterC04name4argsySS_SDySSypGSgtF",
+            "moduleName": "fusion",
+            "genericSig": "<τ_0_0 where τ_0_0 : fusion.FusionRouteDelegate>",
+            "sugared_genericSig": "<Self where Self : fusion.FusionRouteDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@fusion@objc(pl)FusionRouteDelegate",
+        "mangledName": "$s6fusion19FusionRouteDelegateP",
+        "moduleName": "fusion",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FusionRouteType",
+        "printedName": "FusionRouteType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "flutter",
+            "printedName": "flutter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(fusion.FusionRouteType.Type) -> fusion.FusionRouteType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FusionRouteType",
+                    "printedName": "fusion.FusionRouteType",
+                    "usr": "c:@M@fusion@E@FusionRouteType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "fusion.FusionRouteType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FusionRouteType",
+                        "printedName": "fusion.FusionRouteType",
+                        "usr": "c:@M@fusion@E@FusionRouteType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@fusion@E@FusionRouteType@FusionRouteTypeFlutter",
+            "mangledName": "$s6fusion15FusionRouteTypeO7flutteryA2CmF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "flutterWithContainer",
+            "printedName": "flutterWithContainer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(fusion.FusionRouteType.Type) -> fusion.FusionRouteType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FusionRouteType",
+                    "printedName": "fusion.FusionRouteType",
+                    "usr": "c:@M@fusion@E@FusionRouteType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "fusion.FusionRouteType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FusionRouteType",
+                        "printedName": "fusion.FusionRouteType",
+                        "usr": "c:@M@fusion@E@FusionRouteType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@fusion@E@FusionRouteType@FusionRouteTypeFlutterWithContainer",
+            "mangledName": "$s6fusion15FusionRouteTypeO20flutterWithContaineryA2CmF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "native",
+            "printedName": "native",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(fusion.FusionRouteType.Type) -> fusion.FusionRouteType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FusionRouteType",
+                    "printedName": "fusion.FusionRouteType",
+                    "usr": "c:@M@fusion@E@FusionRouteType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "fusion.FusionRouteType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FusionRouteType",
+                        "printedName": "fusion.FusionRouteType",
+                        "usr": "c:@M@fusion@E@FusionRouteType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@fusion@E@FusionRouteType@FusionRouteTypeNative",
+            "mangledName": "$s6fusion15FusionRouteTypeO6nativeyA2CmF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "adaption",
+            "printedName": "adaption",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(fusion.FusionRouteType.Type) -> fusion.FusionRouteType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FusionRouteType",
+                    "printedName": "fusion.FusionRouteType",
+                    "usr": "c:@M@fusion@E@FusionRouteType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "fusion.FusionRouteType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FusionRouteType",
+                        "printedName": "fusion.FusionRouteType",
+                        "usr": "c:@M@fusion@E@FusionRouteType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@fusion@E@FusionRouteType@FusionRouteTypeAdaption",
+            "mangledName": "$s6fusion15FusionRouteTypeO8adaptionyA2CmF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "fusion.FusionRouteType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FusionRouteType",
+                    "printedName": "fusion.FusionRouteType",
+                    "usr": "c:@M@fusion@E@FusionRouteType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6fusion15FusionRouteTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s6fusion15FusionRouteTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "fusion",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6fusion15FusionRouteTypeO8rawValueSivp",
+            "mangledName": "$s6fusion15FusionRouteTypeO8rawValueSivp",
+            "moduleName": "fusion",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6fusion15FusionRouteTypeO8rawValueSivg",
+                "mangledName": "$s6fusion15FusionRouteTypeO8rawValueSivg",
+                "moduleName": "fusion",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@fusion@E@FusionRouteType",
+        "mangledName": "$s6fusion15FusionRouteTypeO",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "fusion"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "fusion"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FusionPlugin",
+        "printedName": "FusionPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(cs)FusionPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s6fusion12FusionPluginC8register4withySo07FlutterC9Registrar_p_tFZ",
+            "moduleName": "fusion",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(cs)FusionPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s6fusion12FusionPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "fusion",
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionPlugin",
+                "printedName": "fusion.FusionPlugin",
+                "usr": "c:@M@fusion@objc(cs)FusionPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fusion@objc(cs)FusionPlugin(im)init",
+            "mangledName": "$s6fusion12FusionPluginCACycfc",
+            "moduleName": "fusion",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@fusion@objc(cs)FusionPlugin",
+        "mangledName": "$s6fusion12FusionPluginC",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FusionPopGestureHandler",
+        "printedName": "FusionPopGestureHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "enablePopGesture",
+            "printedName": "enablePopGesture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(pl)FusionPopGestureHandler(im)enablePopGesture",
+            "mangledName": "$s6fusion23FusionPopGestureHandlerP06enablecD0yyF",
+            "moduleName": "fusion",
+            "genericSig": "<τ_0_0 where τ_0_0 : fusion.FusionPopGestureHandler>",
+            "sugared_genericSig": "<Self where Self : fusion.FusionPopGestureHandler>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disablePopGesture",
+            "printedName": "disablePopGesture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(pl)FusionPopGestureHandler(im)disablePopGesture",
+            "mangledName": "$s6fusion23FusionPopGestureHandlerP07disablecD0yyF",
+            "moduleName": "fusion",
+            "genericSig": "<τ_0_0 where τ_0_0 : fusion.FusionPopGestureHandler>",
+            "sugared_genericSig": "<Self where Self : fusion.FusionPopGestureHandler>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@fusion@objc(pl)FusionPopGestureHandler",
+        "mangledName": "$s6fusion23FusionPopGestureHandlerP",
+        "moduleName": "fusion",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fusion"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FusionViewController",
+        "printedName": "FusionViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(routeName:routeArgs:transparent:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionViewController",
+                "printedName": "fusion.FusionViewController",
+                "usr": "c:@M@fusion@objc(cs)FusionViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6fusion20FusionViewControllerC9routeName0E4Args11transparent15backgroundColorACSS_SDySSypGSgSbSo7UIColorCSgtcfc",
+            "mangledName": "$s6fusion20FusionViewControllerC9routeName0E4Args11transparent15backgroundColorACSS_SDySSypGSgSbSo7UIColorCSgtcfc",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(routeName:routeArgs:transparent:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionViewController",
+                "printedName": "fusion.FusionViewController",
+                "usr": "c:@M@fusion@objc(cs)FusionViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6fusion20FusionViewControllerC9routeName0E4Args11transparent15backgroundColorACSS_SDySSypGSgSbSitcfc",
+            "mangledName": "$s6fusion20FusionViewControllerC9routeName0E4Args11transparent15backgroundColorACSS_SDySSypGSgSbSitcfc",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionViewController",
+                "printedName": "fusion.FusionViewController",
+                "usr": "c:@M@fusion@objc(cs)FusionViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fusion@objc(cs)FusionViewController(im)initWithCoder:",
+            "mangledName": "$s6fusion20FusionViewControllerC5coderACSo7NSCoderC_tcfc",
+            "moduleName": "fusion",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encodeRestorableState",
+            "printedName": "encodeRestorableState(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(cs)FusionViewController(im)encodeRestorableStateWithCoder:",
+            "mangledName": "$s6fusion20FusionViewControllerC21encodeRestorableState4withySo7NSCoderC_tF",
+            "moduleName": "fusion",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "encodeRestorableStateWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(cs)FusionViewController(im)viewWillAppear:",
+            "mangledName": "$s6fusion20FusionViewControllerC14viewWillAppearyySbF",
+            "moduleName": "fusion",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(cs)FusionViewController(im)viewDidAppear:",
+            "mangledName": "$s6fusion20FusionViewControllerC13viewDidAppearyySbF",
+            "moduleName": "fusion",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(cs)FusionViewController(im)viewWillDisappear:",
+            "mangledName": "$s6fusion20FusionViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "fusion",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@fusion@objc(cs)FusionViewController(im)viewDidDisappear:",
+            "mangledName": "$s6fusion20FusionViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "fusion",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(engine:nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionViewController",
+                "printedName": "fusion.FusionViewController",
+                "usr": "c:@M@fusion@objc(cs)FusionViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterEngine",
+                "printedName": "Flutter.FlutterEngine",
+                "usr": "c:objc(cs)FlutterEngine"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fusion@objc(cs)FusionViewController(im)initWithEngine:nibName:bundle:",
+            "mangledName": "$s6fusion20FusionViewControllerC6engine7nibName6bundleACSo13FlutterEngineC_SSSgSo8NSBundleCSgtcfc",
+            "moduleName": "fusion",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithEngine:nibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(project:nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionViewController",
+                "printedName": "fusion.FusionViewController",
+                "usr": "c:@M@fusion@objc(cs)FusionViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterDartProject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterDartProject",
+                    "printedName": "Flutter.FlutterDartProject",
+                    "usr": "c:objc(cs)FlutterDartProject"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fusion@objc(cs)FusionViewController(im)initWithProject:nibName:bundle:",
+            "mangledName": "$s6fusion20FusionViewControllerC7project7nibName6bundleACSo18FlutterDartProjectCSg_SSSgSo8NSBundleCSgtcfc",
+            "moduleName": "fusion",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithProject:nibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(project:initialRoute:nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FusionViewController",
+                "printedName": "fusion.FusionViewController",
+                "usr": "c:@M@fusion@objc(cs)FusionViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterDartProject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterDartProject",
+                    "printedName": "Flutter.FlutterDartProject",
+                    "usr": "c:objc(cs)FlutterDartProject"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@fusion@objc(cs)FusionViewController(im)initWithProject:initialRoute:nibName:bundle:",
+            "mangledName": "$s6fusion20FusionViewControllerC7project12initialRoute7nibName6bundleACSo18FlutterDartProjectCSg_SSSgAKSo8NSBundleCSgtcfc",
+            "moduleName": "fusion",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithProject:initialRoute:nibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@fusion@objc(cs)FusionViewController",
+        "mangledName": "$s6fusion20FusionViewControllerC",
+        "moduleName": "fusion",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)FlutterViewController",
+        "superclassNames": [
+          "Flutter.FlutterViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "fusion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UINavigationController",
+        "printedName": "UINavigationController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "addPopGesture",
+            "printedName": "addPopGesture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22UINavigationControllerC6fusionE13addPopGestureyyF",
+            "mangledName": "$sSo22UINavigationControllerC6fusionE13addPopGestureyyF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removePopGesture",
+            "printedName": "removePopGesture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22UINavigationControllerC6fusionE16removePopGestureyyF",
+            "mangledName": "$sSo22UINavigationControllerC6fusionE16removePopGestureyyF",
+            "moduleName": "fusion",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UINavigationController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UINavigationController",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Fusion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Constant\/FusionConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 12,
+      "value": "\"ROUTE_NAME\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Constant\/FusionConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 12,
+      "value": "\"ROUTE_ARGS\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Constant\/FusionConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Constant\/FusionConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 16,
+      "value": "\"fusion_channel\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Constant\/FusionConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 63,
+      "value": "\"io.flutter.plugin.platform.SystemChromeOverlayNotificationKey\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Constant\/FusionConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 9,
+      "value": "\"history\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Constant\/FusionConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 526,
+      "length": 10,
+      "value": "\"uniqueId\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Constant\/FusionConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 8,
+      "value": "\"opaque\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Constant\/FusionConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 64,
+      "value": "\"io.flutter.plugin.platform.SystemChromeOverlayNotificationName\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Event\/FusionEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1883,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Event\/FusionEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1899,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Container\/FusionNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 355,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Navigator\/FusionNavigator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1874,
+      "length": 20,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Navigator\/FusionNavigator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1904,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Navigator\/FusionNavigator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1920,
+      "length": 8,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Container\/FusionViewController.swift",
+      "kind": "Array",
+      "offset": 237,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Container\/FusionViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 32,
+      "value": "\"container_\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Container\/FusionViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Container\/FusionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2519,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Container\/FusionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3146,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Extension\/UINavigationControllerExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 152,
+      "length": 19,
+      "value": "\"gestureRecognizer\""
+    },
+    {
+      "filePath": "\/Users\/andy\/.pub-cache\/hosted\/pub.flutter-io.cn\/fusion-4.10.2\/ios\/Classes\/Extension\/UINavigationControllerExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 27,
+      "value": "\"gestureRecognizerDelegate\""
+    }
+  ]
+}

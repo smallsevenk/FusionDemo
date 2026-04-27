@@ -1,0 +1,119 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name fusion
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Flutter
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import fusion
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Fusion : ObjectiveC.NSObject {
+  @objc public static let instance: fusion.Fusion
+  public var engineGroup: Flutter.FlutterEngineGroup? {
+    get
+  }
+  public var defaultEngine: Flutter.FlutterEngine? {
+    get
+  }
+  @objc public func install(_ delegate: any fusion.FusionRouteDelegate)
+  @objc public func uninstall()
+  @objc deinit
+}
+public typealias FusionEventCallback = @convention(block) (Swift.Dictionary<Swift.String, Any>?) -> Swift.Void
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class FusionEventManager : ObjectiveC.NSObject {
+  public static let instance: fusion.FusionEventManager
+  public func register(_ event: Swift.String, callback: @escaping fusion.FusionEventCallback)
+  public func unregister(_ event: Swift.String, callback: fusion.FusionEventCallback? = nil)
+  public func send(_ event: Swift.String, args: Swift.Dictionary<Swift.String, Any>? = nil, type: fusion.FusionEventType = .global)
+  @objc deinit
+}
+@objc public enum FusionEventType : Swift.Int {
+  case flutter
+  case native
+  case global
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol FusionMessengerHandler {
+  @objc func configureFlutterChannel(binaryMessenger: any Flutter.FlutterBinaryMessenger)
+  @objc func releaseFlutterChannel()
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class FusionNavigationController : UIKit.UINavigationController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func present(_ viewControllerToPresent: UIKit.UIViewController, animated flag: Swift.Bool, completion: (() -> Swift.Void)? = nil)
+  @available(iOS 5.0, *)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class FusionNavigator : ObjectiveC.NSObject {
+  public static func push(_ routeName: Swift.String, routeArgs: Swift.Dictionary<Swift.String, Any>? = nil, routeType: fusion.FusionRouteType = FusionRouteType.adaption)
+  public static func replace(_ routeName: Swift.String, routeArgs: Swift.Dictionary<Swift.String, Any>? = nil)
+  public static func pop<T>(_ result: T? = nil)
+  public static func maybePop<T>(_ result: T? = nil)
+  public static func remove(_ routeName: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol FusionRouteDelegate {
+  @objc func pushNativeRoute(name: Swift.String, args: Swift.Dictionary<Swift.String, Any>?)
+  @objc func pushFlutterRoute(name: Swift.String, args: Swift.Dictionary<Swift.String, Any>?)
+}
+@objc public enum FusionRouteType : Swift.Int {
+  case flutter
+  case flutterWithContainer
+  case native
+  case adaption
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class FusionPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol FusionPopGestureHandler {
+  @objc func enablePopGesture()
+  @objc func disablePopGesture()
+}
+@objc @_Concurrency.MainActor @preconcurrency open class FusionViewController : Flutter.FlutterViewController {
+  @_Concurrency.MainActor @preconcurrency public init(routeName: Swift.String, routeArgs: Swift.Dictionary<Swift.String, Any>?, transparent: Swift.Bool = false, backgroundColor: UIKit.UIColor? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(routeName: Swift.String, routeArgs: Swift.Dictionary<Swift.String, Any>?, transparent: Swift.Bool = false, backgroundColor: Swift.Int)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func encodeRestorableState(with coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+extension UIKit.UINavigationController {
+  @_Concurrency.MainActor @preconcurrency public func addPopGesture()
+  @_Concurrency.MainActor @preconcurrency public func removePopGesture()
+}
+extension fusion.FusionEventType : Swift.Equatable {}
+extension fusion.FusionEventType : Swift.Hashable {}
+extension fusion.FusionEventType : Swift.RawRepresentable {}
+extension fusion.FusionRouteType : Swift.Equatable {}
+extension fusion.FusionRouteType : Swift.Hashable {}
+extension fusion.FusionRouteType : Swift.RawRepresentable {}

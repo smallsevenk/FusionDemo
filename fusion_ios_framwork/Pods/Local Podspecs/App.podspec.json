@@ -1,0 +1,21 @@
+{
+  "name": "App",
+  "version": "1.0.0",
+  "summary": "Prebuilt Flutter App framework",
+  "description": "Prebuilt Flutter App xcframework for host integration.",
+  "homepage": "https://local.invalid/app",
+  "license": {
+    "type": "MIT",
+    "text": "Local integration only"
+  },
+  "authors": {
+    "local": "local@example.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "path": "."
+  },
+  "vendored_frameworks": "../../../fusion_ios_module/Framework/App.xcframework"
+}

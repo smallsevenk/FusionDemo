@@ -1,0 +1,24 @@
+{
+  "name": "fusion",
+  "version": "1.0.0",
+  "summary": "Prebuilt fusion container framework",
+  "description": "Prebuilt fusion xcframework for host integration.",
+  "homepage": "https://local.invalid/fusion",
+  "license": {
+    "type": "MIT",
+    "text": "Local integration only"
+  },
+  "authors": {
+    "local": "local@example.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "path": "."
+  },
+  "dependencies": {
+    "Flutter": []
+  },
+  "vendored_frameworks": "../../../fusion_ios_module/Framework/fusion.xcframework"
+}

@@ -1,0 +1,33 @@
+PODS:
+  - App (1.0.0)
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (1.0.0):
+    - Flutter
+  - fusion (1.0.0):
+    - Flutter
+
+DEPENDENCIES:
+  - App (from `LocalPods/App`)
+  - Flutter (from `LocalPods/Flutter`)
+  - FlutterPluginRegistrant (from `LocalPods/FlutterPluginRegistrant`)
+  - fusion (from `LocalPods/fusion`)
+
+EXTERNAL SOURCES:
+  App:
+    :path: LocalPods/App
+  Flutter:
+    :path: LocalPods/Flutter
+  FlutterPluginRegistrant:
+    :path: LocalPods/FlutterPluginRegistrant
+  fusion:
+    :path: LocalPods/fusion
+
+SPEC CHECKSUMS:
+  App: ec9837aff32ba20ea092977cc5bbfee3fdb579aa
+  Flutter: 42d5a0336a805c43b54e3ec197eb29c7d53a7dd3
+  FlutterPluginRegistrant: 5317e8da78d33b4c96bb837e1c9ee738c53e5e23
+  fusion: bcbea03c22a6d0d5912a33309763257d443cc517
+
+PODFILE CHECKSUM: cc2211009fa44a2cba1864630dcfdffd61be4d18
+
+COCOAPODS: 1.16.2

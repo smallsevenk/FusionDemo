@@ -1,0 +1,21 @@
+{
+  "name": "Flutter",
+  "version": "1.0.0",
+  "summary": "Prebuilt Flutter engine framework",
+  "description": "Prebuilt Flutter xcframework for host integration.",
+  "homepage": "https://local.invalid/flutter",
+  "license": {
+    "type": "MIT",
+    "text": "Local integration only"
+  },
+  "authors": {
+    "local": "local@example.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "path": "."
+  },
+  "vendored_frameworks": "../../../fusion_ios_module/Framework/Flutter.xcframework"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "FlutterPluginRegistrant",
+  "version": "1.0.0",
+  "summary": "Prebuilt Flutter plugin registrant",
+  "description": "Prebuilt FlutterPluginRegistrant xcframework for host integration.",
+  "homepage": "https://local.invalid/flutter-plugin-registrant",
+  "license": {
+    "type": "MIT",
+    "text": "Local integration only"
+  },
+  "authors": {
+    "local": "local@example.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "path": "."
+  },
+  "dependencies": {
+    "Flutter": []
+  },
+  "vendored_frameworks": "../../../fusion_ios_module/Framework/FlutterPluginRegistrant.xcframework"
+}

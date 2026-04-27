@@ -1,0 +1,26 @@
+platform :ios, '13.0'
+
+target 'fusion_ios' do
+  use_frameworks!
+
+  # Framework 方案：通过本地 podspec 管理 xcframework，避免走 flutter module 自动构建脚本
+  pod 'Flutter', :path => 'LocalPods/Flutter'
+  pod 'App', :path => 'LocalPods/App'
+  pod 'FlutterPluginRegistrant', :path => 'LocalPods/FlutterPluginRegistrant'
+  pod 'fusion', :path => 'LocalPods/fusion'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.name.include?('fusion')
+      target.build_configurations.each do |config|
+        config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['$(inherited)']
+        config.build_settings['OTHER_SWIFT_FLAGS'] << '-no-verify-emitted-module-interface'
+        config.build_settings['SWIFT_EMIT_MODULE_INTERFACE'] = 'NO'
+      end
+    end
+  end
+end
+
+
+ 
